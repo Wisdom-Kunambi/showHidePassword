@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #94fc60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  padding: 50px;
+  border-radius: 20px;
+  border: 5px solid rgb(160, 135, 235);
+}
+
+.pass {
+  border: 3px solid rgb(160, 135, 235);
+  width: 14rem;
+  height: 3rem;
+  background: white;
+  border-radius: 5px;
+}
+
+#passwordInput {
+  height: 100%;
+  border: none;
+  padding: 0 10px;
+  outline: none;
+}
+
+#togglePassView {
+  height: 100%;
+  border: none;
+  background: white;
+  cursor: pointer;
+}
